@@ -59,6 +59,10 @@ body, html {
   font-family: "Open Sans", sans-serif;
 }
 
+.form_container form .captcha {
+  margin: 20px 0;
+}
+
 .form_container form button {
   width: 100%;
   height: 60px;
