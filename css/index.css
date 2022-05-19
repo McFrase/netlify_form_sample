@@ -1,0 +1,62 @@
+*, *:after, *:before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #212121;
+}
+
+.form_container {
+  width: 30%;
+  height: 40%;
+  background: #888;
+  padding: 2rem;
+}
+
+.form_container form .input_box {
+  width: 100%;
+  height: 60px;
+  margin: 20px 0;
+}
+
+.form_container form .input_box input {
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #888;
+}
+
+.form_container form button {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #6c0eff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #6c0eff;
+  color: #fff;
+}
+/*# sourceMappingURL=index.css.map */
